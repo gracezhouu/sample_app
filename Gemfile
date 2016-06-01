@@ -5,12 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5.1'
 
 group :development, :test do
-	gem 'sqlite3'
 	gem 'rspec-rails', '2.13.1'
 end
 
 group :test do 
-	gem 'selenium-webdriver', '2.0.0'
+	gem 'selenium-webdriver'
 	gem 'capybara', '2.1.0'
 	
 end
